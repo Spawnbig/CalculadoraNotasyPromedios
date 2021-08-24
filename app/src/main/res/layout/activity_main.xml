@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewInicio"
+            android:layout_width="match_parent"
+            android:layout_height="166dp"
+            android:gravity="center"
+            android:lineSpacingExtra="5sp"
+            android:text="@string/app_startup"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textIsSelectable="false"
+            android:textSize="20sp"
+            android:typeface="normal" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="67dp" />
+
+        <EditText
+            android:id="@+id/editTextNombreAsignatura"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:ems="10"
+            android:hint="@string/hint_nombre_asignatura"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:textColorHint="#78909C"
+            android:visibility="visible"
+            tools:visibility="visible" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25dp" />
+
+        <EditText
+            android:id="@+id/editTextNotasTeoricas"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:ems="10"
+            android:hint="@string/hint_numeros_notas_teoricas"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:textColorHint="#78909C"
+            tools:visibility="visible" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25dp" />
+
+        <EditText
+            android:id="@+id/editTextNotasPracticas"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:ems="10"
+            android:hint="@string/hint_numeros_notas_practicas"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:textColorHint="#78909C"
+            tools:visibility="visible" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="85dp" />
+
+        <Button
+            android:id="@+id/buttonSiguiente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/siguiente"
+            tools:visibility="visible" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

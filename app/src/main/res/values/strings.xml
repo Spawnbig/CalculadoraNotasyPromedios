@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Calculadora de Notas</string>
+    <string name="app_startup">Ahora calcularemos tus notas restantes, por favor ingrese el nombre de la asignatura,
+     seguido de la cantidad de notas Prácticas y Teóricas</string>
+    <string name="hint_nombre_asignatura">Nombre Asignatura</string>
+    <string name="nombre_asignatura">Nombre Asignatura</string>
+    <string name="hint_numeros_notas_teoricas">Cantidad de notas Teóricas</string>
+    <string name="hint_numeros_notas_practicas">Cantidad de notas Prácticas</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="porcentaje_practicas">Porcentaje Prácticas</string>
+    <string name="porcentaje_teoricas">Porcentaje Teóricas</string>
+    <string name="ingrese_nota">Ingrese Nota</string>
+    <string name="porcentaje">Porcentaje</string>
+    <string name="mostrar_notas_faltantes">Se mostraran las notas faltantes</string>
+    <string name="recalcular">Recalcular</string>
+
+    <string-array name="error_falta_informacion">
+        <item>Por favor, rellene nombre de Asignatura</item>
+        <item>Por favor, rellene Notas Teóricas</item>
+        <item>Por favor, rellene Notas Prácticas</item>
+    </string-array>
+
+
+</resources>
